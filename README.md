@@ -9,11 +9,10 @@ I would love to hear if you discover anything that works better than my code! My
 
 
 ## Access
-Web of Science is very careful about who accesses it so this is probably the hardest part to figure out. Some key things:
 
-**Your computer MUST be connected to your institution's network**. I haven't had much luck with a WiFi connection, so an ethernet connecton at your institution is best. Web of Science says you can create an account and link it to your institutional access for remote access, but I've done that and it hasn't worked for me. I'll update if it does end up working.
-
-**Disable any proxies or VPNs**.
+Web of Science is very careful about who accesses it so this is probably the hardest part to figure out. **Your computer MUST be connected to your institution's network**. 
+* Ethernet connection on campus is the most reliable. Make sure that you disable any proxies or VPNs.   
+* I have not had much luck with a WiFi connection, but another researcher has informed me that if you connect to your institution's VPN, you will then be able to authenticate using `wos_authenticate()` (thank you @nembrown!).  
 
 
 ## Editions/collections
@@ -22,6 +21,7 @@ Often, universities only have subscriptions to SOME editions (AKA collections) o
 
 
 ## Building queries
+
 See this page for links to ALL of WOS's help pages: http://images.webofknowledge.com/images/help/WOS/
 
 For all of the search categories/fields to use in queries (e.g. Topic is TS, Publication Type is PT), and any rules to follow when using these field tags, visit https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html.
